@@ -1,10 +1,6 @@
 
 var server = require('ws').Server;
-//var s = new server({port:5001});
-var s = new WebSocket('ws://ancient-wave-29865.herokuapp.com/');
-
-//"url": "https://github.com/heroku/node-js-getting-started"
-// "https://github.com/inspectaTech/node-js-getting-started.git"
+var s = new server({port:5001});
 
 s.on('connection',function(ws){
 	ws.on('message',function(message){
