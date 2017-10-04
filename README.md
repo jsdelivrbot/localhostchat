@@ -8,7 +8,7 @@ and npm [ws](https://www.npmjs.com/package/ws)
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
-```sh
+
 
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
